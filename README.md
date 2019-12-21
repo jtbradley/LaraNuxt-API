@@ -4,10 +4,14 @@ Laravel API with CRUD functionality for decoupled app. Includes JWT Authenticati
 
 I have built a Nuxt frontend that integrates this API: https://github.com/jtbradley/LaraNuxt-client
 
-<h2>Installation</h2>
+<h2>Setup</h2>
 
 <h4>Install Dependencies</h4>
 <code>composer install</code>
+
+<h4>Create .env file</h4>
+<code>cp .env.example .env</code>
+<p>Enter MySQL database info</p>
 
 <h4>Run Migrations</h4>
 <code>php artisan migrate</code>
